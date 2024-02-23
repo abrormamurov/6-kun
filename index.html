@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6-kun</title>
+  </head>
+  <body>
+    <h2>Math obyeti</h2>
+    <p>
+      JavaScriptda Math obyektni raqamlar ustida matematik amallarni bajarishda
+      yordam beradi.
+    </p>
+    <br />
+    <p>
+      JavaScript 8 ta matematik konstantalarni taqdim etadi, ularga Math
+      xossalari sifatida kirish mumkin:
+    </p>
+    <ul>
+      <li><b>Math.E</b> - Eyler sonini qaytaradi</li>
+      <li><b>Math.PI</b> - PI ning qiymatini qaytaradi</li>
+      <li><b>Math.SQRT2</b> - 2 ning kvadrat ildizini qaytaradi</li>
+      <li><b>Math.SQRT1_2</b> - 1/2 ning kvadrat ildizini qaytaradi</li>
+      <li><b>Math.LN2</b> - 2 ning natural logarifmni qaytaradi</li>
+      <li><b>Math.LN10</b> - 10 ning natural logarifmini qaytaradi</li>
+      <li><b>Math.LOG2E</b> - E ning 2 logarifmini qaytaradi</li>
+      <li><b>Math.LOG10E</b> - E ning 10 lik logarifmini qaytaradi.</li>
+    </ul>
+
+    <h2>Matematik funksiyalar</h2>
+    <ul>
+      <li>
+        <b>Math.round(x)</b> - X ni eng yaqin butun songa yaxlitlangan holda
+        qaytaradi
+      </li>
+      <li>
+        <b>Math.ceil(x)</b> - X ni eng yaqin katta butun songa yaxlitlangan
+        holda qaytaradi
+      </li>
+      <li>
+        <b>Math.floor(x)</b> - X ni eng yaqin kichik butun soniga yaxlitlangan
+        holda qaytaradi
+      </li>
+      <li>
+        <b>Math.trunc(x)</b> - x ning butun qismini qaytaradi ( ES6 da yangi )
+      </li>
+    </ul>
+
+    <h2>Math.pow()</h2>
+    <p>
+      <b style="color: red">Math.pow(x, y)</b> x qiymatini y darajasini
+      qaytaradi:
+    </p>
+    <img src="./images/Screenshot_3.png" alt="" width="600" height="100" />
+    <h2>Math.sqrt()</h2>
+    <p>
+      <b style="color: red">Math.sqrt(x)</b> - x ning kvadrat ildizini
+      qaytaradi:
+    </p>
+    <img src="./images/Screenshot_1.png" alt="" width="600" height="100" />
+    <h2>Math.abs()</h2>
+    <p>
+      <b style="color: red">Math.abs(x)</b> - x ning (musbat) qiymatini
+      qaytaradi:
+    </p>
+    <img src="./images/Screenshot_2.png" alt="" width="600" height="100" />
+    <hr />
+    <h2>String</h2>
+    <h2>String ni qism kesimida chaqirish.</h2>
+    <p>Satrning bir qismini ajratib olishning 3 ta usuli mavjud:</p>
+    <ol>
+      <li><b>slice</b>(start, end)</li>
+      <li><b>substring</b>(start, end)</li>
+      <li><b>substr</b>(start, length)</li>
+    </ol>
+    <h2>String slice()</h2>
+    <p>
+      <b style="color: red">slice()</b>satrning bir qismini chiqaradi va
+      chiqarilgan qismini yangi qatorga qaytaradi. U ikki parametr qabul qiladi
+      boshlang'ich nuqtasi va oxirgi nuqtasi.
+    </p>
+    <h2>String substring()</h2>
+    <b style="color: red">substring()</b> funksiya <b style="color: red;">slice()</b> bilan o'xshash. Birgina farqi teskari indeks qabul qilmaydi.
+
+
+  </p>
+  <p>Agar siz ikkinchi parametrni kiritmasangiz <b style="color: red;">substring()</b> satrning qolgan qismini kesib tashlaydi.
+
+  </p>
+  <h2>String substr()</h2>
+  <p><b style="color: red;">substr()</b> funksiya <b style="color: red;">slice()</b> bilan o'xshash. Farqi shundaki birinchi parametr kesib olinadigan matn ni boshlang'ich indeksi ikkinchi paremetrga boshlang'ich indeksdan satr kengligini kesib oladi.
+
+  </p>
+  <h2>String toUpperCase()</h2>
+  <p><b style="color: red;">toUpperCase()</b> funksiyasi belgilangan satrni katta harflarga o'tkazadi.
+
+  </p>
+  <h2>String toLowerCase()</h2>
+  <p><b style="color: red;">toLowerCase()</b> funksiyasi belgilangan satrni kichik harflarga o'tkazadi.
+
+  </p>
+  <h2>String concat()</h2>
+  <p><b style="color: red;">concat()</b>ikki yoki undan ortiq qatorlarni birlashtiradi:
+
+  </p>
+  <h2>String trim()</h2>
+  <p>Ushbu funksiya <b style="color: red;">trim()</b> satrning ikkala tomonidagi bo'shliqni olib tashlaydi:
+
+  </p>
+  <h2> String charAt()</h2>
+  <p>Ushbu funksiya <b style="color: red;">charAt()</b> belgini satrdagi belgilangan indeks (pozitsiya) ga qaytaradi:
+
+  </p>
+    <script src="./app.js"></script>
+  </body>
+</html>
